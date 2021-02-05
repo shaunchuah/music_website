@@ -17,6 +17,18 @@ body {
     font-size: 1.2rem;   
 }
 
+a {
+    color: #2a9d8f;
+}
+
+a:hover {
+    color: #e76f51;
+}
+
+nav {
+    font-family: 'Roboto', sans-serif;
+}
+
 p {
     font-weight:300;
 }
@@ -56,10 +68,12 @@ f4a261
 e76f51
 
 */
-
 .navbar-dark .navbar-nav .nav-link {
     color: white;
 }
+
+
+
 
 .style1 {
     background-color: #2a9d8f;
@@ -128,17 +142,34 @@ section {
     position: relative;
 }
 
+
 #banner header {
     font-weight: 700;
     color: white;
 }
 
-#banner header h5{
-    margin-bottom: 3rem;
-}
+
 
 #banner header h1{
-    font-size: 6rem;
+    font-size: 7rem;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0;
+}
+
+#banner header h2{
+    margin-top: 0;
+    margin-bottom: 6.5rem;
+}
+
+#banner header h4 {
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+}
+
+#banner header h5{
+    margin-bottom: 3rem;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
 }
 
 #banner a{
@@ -264,5 +295,5 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
-    color: white;
+    color: #e76f51;;
 }
