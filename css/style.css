@@ -1,0 +1,198 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather', serif;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    margin-top:1rem;
+}
+
+body {
+    font-family: 'Merriweather Sans', sans-serif;
+    
+}
+
+p {
+    font-weight:300;
+}
+
+.image.fit img, .image.fit {
+    width: 100%;
+}
+
+.image img {
+    border-radius: 3px;
+    display: block;
+    position: relative;
+}
+
+
+section {
+    margin-bottom: 3rem;
+}
+
+.style1 {
+    background-color: #65ccb8;
+}
+
+/* 
+Theme Colours
+264653
+2a9d8f
+e9c46a
+f4a261
+e76f51
+
+*/
+
+.style2 {
+    background-color: #264653;
+    color: #f2f2f2;
+}
+
+.scrolled {
+    background-color: #264653 !important;
+    transition: background-color 500ms linear;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #264653 !important;
+}
+
+.style3 {
+    background-color: #f2f2f2;
+}
+
+.style4 {
+    background-color: white;
+}
+
+.container-fluid {
+    padding:0;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+
+.mission {
+    min-height: 20rem;
+    font-size: 1.3rem;
+}
+
+section {
+    margin-bottom: 0;
+}
+
+#banner a{
+    text-decoration: none;
+    color: white;
+}
+
+#banner {
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    cursor: default;
+    height: 95vh;
+    min-height: 60rem;
+    position: relative;
+}
+
+.background-image {
+    background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/banner.jpg);
+    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/banner.jpg);
+    background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/banner.jpg);
+    background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/banner.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#banner header {
+    font-weight: 700;
+    color: white;
+}
+
+#banner header h1{
+    font-size: 6rem;
+}
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+
+ul.timeline:before {
+    content: ' ';
+    background: #2e3842;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 3px;
+    height: 95%;
+    z-index: 400;
+}
+
+ul.timeline > li {
+    margin: 0 0 2em 0;
+	padding-left: 2em;
+	font-size: 1.5em;
+	font-weight: 500;
+}
+
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #22c0e8;
+    left: 21px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+
+#team {
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+}
+
+#team h2 {
+    margin-bottom: 2.5rem;
+}
+
+#team ul{
+    list-style-type: none;
+    padding: 0.3rem;
+}
+
+#centres img{
+    margin-bottom: 2rem;
+}
+
+#banner h6 {
+    margin-bottom: 2rem;
+}
+
+
+
+.card {
+    background-color: rgb(255,255,255,0.85);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
