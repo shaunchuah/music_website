@@ -1,5 +1,14 @@
+:root {
+    --animate-delay: 0.3s;
+    --animate-duration: 2s;
+  }
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Merriweather', serif;
+}
+
+audio {
+    width: 100%;
 }
 
 h2 {
@@ -14,7 +23,7 @@ h5 {
 body {
     font-family: 'Merriweather Sans', sans-serif;
     font-weight: 300;
-    font-size: 1.2rem;   
+    font-size: 1.1rem;   
 }
 
 a {
@@ -136,9 +145,9 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    cursor: default;
-    height: 95vh;
-    min-height: 60rem;
+    padding-top:10rem;
+    padding-bottom:10rem;
+
     position: relative;
 }
 
@@ -148,7 +157,9 @@ section {
     color: white;
 }
 
-
+#banner #gutresearch{
+    padding-top: 1rem;
+}
 
 #banner header h1{
     font-size: 7rem;
@@ -158,7 +169,7 @@ section {
 
 #banner header h2{
     margin-top: 0;
-    margin-bottom: 6.5rem;
+    margin-bottom: 6rem;
 }
 
 #banner header h4 {
@@ -208,7 +219,7 @@ ul.timeline {
 
 ul.timeline:before {
     content: ' ';
-    background: #2e3842;
+    background: #264653;
     display: inline-block;
     position: absolute;
     left: 29px;
@@ -230,7 +241,7 @@ ul.timeline > li:before {
     display: inline-block;
     position: absolute;
     border-radius: 50%;
-    border: 3px solid #22c0e8;
+    border: 3px solid #2a9d8f;
     left: 21px;
     width: 20px;
     height: 20px;
@@ -264,13 +275,25 @@ ul.timeline > li:before {
 
 
 .card {
-    background-color: rgb(255,255,255,0.85);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 100ms ease-in-out;
 }
 
+#banner .card:hover {
+    transform: scale(1.04);
+}
 
+.card .btn {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
+}
 
+#explainer .card {
+    color: black;
+}
 
-
+.card-text{
+    font-size: 1rem;
+}
 
 
 
