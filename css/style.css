@@ -136,8 +136,7 @@ section {
     background-size: cover;
     padding-top: 0;
     padding-bottom: 0;
-    height:100%;
-    width:auto;
+    height:100vh;
 }
 
 /* BANNER STYLES */
