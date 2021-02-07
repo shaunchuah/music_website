@@ -138,6 +138,7 @@ body {
     padding-bottom: 0;
     height:100vh;
     background-color: #264653;
+    background-attachment: fixed;
 }
 
 /* BANNER STYLES */
